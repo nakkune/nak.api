@@ -5,6 +5,7 @@ const session = require('express-session')
 const path = require('path')
 const logger = require('../../lib/logger')(module)
 const cors = require('cors')
+const router = require('../routes/router')
 
 
 logger.info('www start')
@@ -18,6 +19,8 @@ app.use(bodyParser.text())
 app.use(bodyParser.json())
 app.use(bodyParser.urlencoded({extended: true}))
 app.enable('trust proxy')
+
+app.use('/',router)
 
 server = http.createServer(app)
 server.on('listening', onListening)
