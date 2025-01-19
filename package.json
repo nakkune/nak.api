@@ -1,0 +1,41 @@
+{
+  "name": "nak.api",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/nakkune/nak.api#readme",
+  "bugs": {
+    "url": "https://github.com/nakkune/nak.api/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nakkune/nak.api.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "main.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "app-root-path": "^3.1.0",
+    "axios": "^1.7.9",
+    "body-parser": "^1.20.3",
+    "cors": "^2.8.5",
+    "ejs": "^3.1.10",
+    "express": "^4.21.2",
+    "express-session": "^1.18.1",
+    "mysql": "^2.18.1",
+    "mysql2": "^3.12.0",
+    "oracledb": "^6.7.1",
+    "process": "^0.11.10",
+    "swagger-autogen": "^2.23.7",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^5.0.1",
+    "winston": "^3.17.0",
+    "winston-daily-rotate-file": "^5.0.0"
+  }
+}
